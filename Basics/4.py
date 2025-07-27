@@ -13,7 +13,7 @@ def get_net_pay(gross_pay, tax_rate):
 
 def get_gross_pay():
     while True:
-        radius = input("Enter the gross pay: ")
+        radius = input("Enter the gross pay: ").strip()
 
         try:
             return float(radius)

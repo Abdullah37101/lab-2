@@ -1,11 +1,18 @@
 def main():
-    input_string = input("Enter a string: ")
+    input_string = get_string()
 
     upper_letters, lower_letters = count_case(input_string)
     
     print(f"No. of Upper case characters : {upper_letters}")
     print(f"No. of Lower case characters : {lower_letters}")
 
+
+def get_string():
+    while True:
+        s = input("Enter a string: ").strip()
+        
+        if s:
+            return s
 
 def count_case(s):
     upper_letters = 0

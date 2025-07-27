@@ -9,7 +9,7 @@ def to_fahrenheit(celsius):
 
 def get_temperature():
     while True:
-        radius = input("Enter the temperate in celsius: ")
+        radius = input("Enter the temperate in celsius: ").strip()
 
         try:
             return float(radius)

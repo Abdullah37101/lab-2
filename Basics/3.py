@@ -11,7 +11,7 @@ def get_volume(radius):
 
 def get_radius():
     while True:
-        radius = input("Enter the radius: ")
+        radius = input("Enter the radius: ").strip()
 
         try:
             return float(radius)

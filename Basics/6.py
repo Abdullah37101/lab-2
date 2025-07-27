@@ -6,7 +6,7 @@ def main():
 
 def get_number():
     while True:
-        number = input("Enter a number: ")
+        number = input("Enter a number: ").strip()
 
         try:
             return float(number)

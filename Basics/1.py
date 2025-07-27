@@ -9,7 +9,7 @@ def to_cm(inches):
 
 def get_length():
     while True:
-        radius = input("Enter the length in inches: ")
+        radius = input("Enter the length in inches: ").strip()
 
         try:
             return float(radius)

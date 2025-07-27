@@ -13,7 +13,7 @@ def main():
 
 def get_number():
     while True:
-        number = input("Enter a number from 0 to 40: ")
+        number = input("Enter a number from 0 to 40: ").strip()
 
         try:
             number = float(number)
