@@ -1,7 +1,7 @@
 def main():
     length = get_length()
-    cm_length = to_cm(length)
-    print(f"The length in centimeters is: {cm_length:.2f}")
+    cm = to_cm(length)
+    print(f"The length in centimeters is: {cm:.2f}")
 
 
 def to_cm(inches):
